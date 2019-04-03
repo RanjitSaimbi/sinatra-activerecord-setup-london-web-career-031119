@@ -1,4 +1,4 @@
-# A sample Gemfile
+c# A sample Gemfile
 source "https://rubygems.org"
 
  	gem 'sinatra'
@@ -13,7 +13,7 @@ source "https://rubygems.org"
 		gem 'shotgun'
 		gem 'pry'
 		gem 'tux'
-		gem 'sqlite3'
+		gem 'sqlite3' ~> 1.3.6
 	end
     
 group :test do
